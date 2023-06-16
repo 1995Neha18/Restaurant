@@ -2,7 +2,7 @@ export const reducer = (state, { type, payload }) => {
   switch (type) {
     case "SET_ORDER_ITEMS":
       let slug = Object.keys(payload)[0];
-      console.log(slug);
+      // console.log(slug);
       return {
         ...state,
         orderItems: {
@@ -17,6 +17,11 @@ export const reducer = (state, { type, payload }) => {
       return {
         ...state,
         orderPrice: payload,
+      };
+    case "SET_INITIAL_ORDER_ITEMS":
+      return {
+        ...state,
+        initial: payload,
       };
     default:
       return state;

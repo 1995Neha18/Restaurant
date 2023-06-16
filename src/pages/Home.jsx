@@ -1,10 +1,22 @@
 import React from "react";
-import { Center, Flex, Grid, GridItem, Spinner } from "@chakra-ui/react";
+import {
+  Button,
+  Center,
+  Flex,
+  Grid,
+  GridItem,
+  Spinner,
+  Text,
+} from "@chakra-ui/react";
 import { Cards, OrderCart } from "../components";
-import { UpdatedComponent } from "../hoc";
-import { Context } from "../contextApi";
+import { getAllPrducts } from "../api";
+import { useQuery } from "react-query";
 
-function Home({ isLoading, data, isError, error }) {
+function Home() {
+  const { isLoading, data, isError, error, refetch } = useQuery(
+    "categories",
+    getAllPrducts
+  );
 
   if (isLoading) {
     return (
@@ -13,9 +25,22 @@ function Home({ isLoading, data, isError, error }) {
       </Center>
     );
   }
+
   if (isError) {
-    return <Center h="100vh">{error.message}</Center>;
+    return (
+      <Center h="100vh">
+        <Text fontWeight="semibold">{error.message}</Text>
+      </Center>
+    );
   }
+
+  const reload = () => {
+    console.log("refetching...");
+    refetch();
+  };
+
+  // console.log({isLoading, data, isError, error, refetch})
+
   return (
     <>
       <Grid
@@ -43,10 +68,10 @@ function Home({ isLoading, data, isError, error }) {
         bottom="0px"
         right="0px"
       >
-        <OrderCart />
+        <OrderCart reload={reload}/>
       </Flex>
     </>
   );
 }
 
-export default UpdatedComponent(Home);
+export default Home;

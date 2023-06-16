@@ -14,12 +14,12 @@ import {
 import { RiDeleteBinLine } from "react-icons/ri";
 import { BsCurrencyRupee } from "react-icons/bs";
 import { IoDocumentTextOutline } from "react-icons/io5";
-import { UpdatedComponent } from "../hoc";
 import { Context } from "../contextApi";
 import React from "react";
 import { CustomInput, RenderOrders } from "../utils";
+import { toast } from "react-toastify";
 
-function OrderCart() {
+function OrderCart({ reload }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const [formData, setData] = React.useState({
@@ -27,6 +27,7 @@ function OrderCart() {
     mobile: "",
   });
 
+  const [totalPrice, setTotalPrice] = React.useState(0);
   const {
     state: { orderItems, orderPrice },
   } = React.useContext(Context);
@@ -37,9 +38,9 @@ function OrderCart() {
     })
     .flat();
 
-  console.log("orderList", orderList);
+  // console.log("orderList", orderList);
 
-  let totalPrice = Object.values(orderItems).reduce((acc, item) => {
+  let total = Object.values(orderItems).reduce((acc, item) => {
     return (
       acc +
       Object.values(item).reduce((acc, item) => {
@@ -48,10 +49,34 @@ function OrderCart() {
     );
   }, 0);
 
+  const handleSubmit = () => {
+    if (!formData.name.trim() || formData.mobile.length !== 10) {
+      toast.error("Please fill all the fields");
+      return;
+    }
+    const order = {
+      customer: formData,
+      orderItems,
+      orderPrice,
+    };
+    console.log(order);
+    toast.success("Order Placed Successfully");
+    onClose();
+  };
+
+  React.useEffect(() => {
+    setTotalPrice(total);
+  }, [total]);
   return (
     <>
       <Box>
-        <Button _hover="none" bg="none" color="#521639">
+        <Button
+          _hover="none"
+          bg="none"
+          color="#521639"
+          _active="none"
+          onClick={reload}
+        >
           <RiDeleteBinLine fontSize="2em" />
         </Button>
         <Button
@@ -63,7 +88,6 @@ function OrderCart() {
           _hover="none"
           px="10"
           py="6"
-          _active="none"
         >
           <IoDocumentTextOutline fontSize="1.8em" />
 
@@ -101,7 +125,7 @@ function OrderCart() {
 
           <ModalFooter>
             <Button
-              onClick={onOpen}
+              onClick={handleSubmit}
               bg="#521639"
               color="white"
               borderRadius="0"
@@ -131,4 +155,4 @@ function OrderCart() {
   );
 }
 
-export default UpdatedComponent(OrderCart);
+export default OrderCart;

@@ -25,6 +25,8 @@ export default function CustomInput({ setData, formData }) {
             onChange={(e) => setData({ ...formData, mobile: e.target.value })}
             focusVisible="none"
             _placeholder={{ color: "gray.400" }}
+            maxLength={10}
+            
           />
           <InputRightAddon
             children={`${formData.mobile.length}/10`}

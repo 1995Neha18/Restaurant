@@ -7,7 +7,7 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useCallback } from "react";
 import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai";
 import { Context } from "../contextApi";
 
@@ -22,40 +22,44 @@ const RenderOrders = ({ orderItems }) => {
   );
 
   React.useEffect(() => {
-    
     dispatch({ type: "SET_ORDER_PRICE", payload: totalPrice });
-  }, []);
+  }, [dispatch, totalPrice]);
 
-  const handleDecrement = (id, index) => {
-    setState((prev) => {
-      let newCount = [...prev];
-      newCount[index].quantity =
-        newCount[index].quantity === 1 ? 1 : newCount[index].quantity - 1;
-      return newCount;
-    });
-    dispatch({ type: "SET_ORDER_PRICE", payload: totalPrice });
-  };
+  const handleDecrement = useCallback(
+    (id, index) => {
+      setState((prev) => {
+        let newCount = [...prev];
+        newCount[index].quantity =
+          newCount[index].quantity === 1 ? 1 : newCount[index].quantity - 1;
+        return newCount;
+      });
+      dispatch({ type: "SET_ORDER_PRICE", payload: totalPrice });
+    },
+    [dispatch, totalPrice]
+  );
 
-  const handleIncrement = (id, index) => {
-    setState((prev) => {
-      let newCount = [...prev];
-      newCount[index].quantity = newCount[index].quantity + 1;
-      return newCount;
-    });
-    dispatch({ type: "SET_ORDER_PRICE", payload: totalPrice });
-  };
+  const handleIncrement = useCallback(
+    (id, index) => {
+      setState((prev) => {
+        let newCount = [...prev];
+        newCount[index].quantity = newCount[index].quantity + 1;
+        return newCount;
+      });
+      dispatch({ type: "SET_ORDER_PRICE", payload: totalPrice });
+    },
+    [dispatch, totalPrice]
+  );
 
-  const handleRemove = (id, idx) => {
+  const handleRemove = useCallback((id, idx) => {
     setState((prev) => {
       let newCount = [...prev];
       let filtered = newCount.filter((item, index) => index !== idx);
-      // if (filtered.length === 0) {
-          
-      // }
       return filtered;
     });
-    
-  };
+  }, []);
+
+
+
 
   return (
     <Box my="5">
