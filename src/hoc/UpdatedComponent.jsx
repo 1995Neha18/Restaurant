@@ -1,6 +1,7 @@
 import React from "react";
 import { getAllPrducts } from "../api";
 import { useQuery } from "react-query";
+// import { Context } from "../contextApi";
 
 const UpdatedComponent = (OriginalComponent) => {
   function NewComponent() {

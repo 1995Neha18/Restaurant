@@ -31,22 +31,28 @@ function OrderCart() {
     state: { orderItems, orderPrice },
   } = React.useContext(Context);
 
-  const totalPrice = orderItems?.reduce(
-    (acc, item) => acc + item.price * item.quantity,
-    0
-  );
-  // console.log(totalPrice,orderItems)
+  let orderList = Object.values(orderItems)
+    .map((item) => {
+      return Object.values(item);
+    })
+    .flat();
 
-  React.useEffect(() => {
-    console.log("orderPrice", {orderPrice});
-    console.log("orderItems", {orderItems})
-  }, [orderPrice,orderItems]);
+  console.log("orderList", orderList);
+
+  let totalPrice = Object.values(orderItems).reduce((acc, item) => {
+    return (
+      acc +
+      Object.values(item).reduce((acc, item) => {
+        return acc + item.price * item.quantity;
+      }, 0)
+    );
+  }, 0);
 
   return (
     <>
       <Box>
         <Button _hover="none" bg="none" color="#521639">
-          <RiDeleteBinLine fontSize="2em"  />
+          <RiDeleteBinLine fontSize="2em" />
         </Button>
         <Button
           onClick={onOpen}
@@ -76,7 +82,7 @@ function OrderCart() {
 
       <Modal isOpen={isOpen} onClose={onClose} scrollBehavior="inside">
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent bg="white" color="black">
           <ModalHeader
             px="4"
             color="#521639"
@@ -90,7 +96,7 @@ function OrderCart() {
           <ModalCloseButton />
           <ModalBody>
             <CustomInput setData={setData} formData={formData} />
-            <RenderOrders orderItems={orderItems} />
+            <RenderOrders orderItems={orderList} />
           </ModalBody>
 
           <ModalFooter>
@@ -115,7 +121,7 @@ function OrderCart() {
                 alignItems={"center"}
               >
                 <BsCurrencyRupee />
-                {totalPrice}
+                {orderPrice}
               </Text>
             </Button>
           </ModalFooter>

@@ -14,9 +14,7 @@ import { Context } from "../contextApi";
 const RenderOrders = ({ orderItems }) => {
   const { dispatch } = React.useContext(Context);
 
-  const newOrderItemsFilter = orderItems.filter((item) => item.quantity > 0);
-
-  const [state, setState] = React.useState(newOrderItemsFilter);
+  const [state, setState] = React.useState(orderItems);
 
   const totalPrice = state.reduce(
     (acc, item) => acc + item.price * item.quantity,
@@ -24,9 +22,9 @@ const RenderOrders = ({ orderItems }) => {
   );
 
   React.useEffect(() => {
-    setState(newOrderItemsFilter);
-    dispatch({ type: "ORDER_PRICE", payload: totalPrice });
-  }, [totalPrice,dispatch]);
+    
+    dispatch({ type: "SET_ORDER_PRICE", payload: totalPrice });
+  }, []);
 
   const handleDecrement = (id, index) => {
     setState((prev) => {
@@ -35,6 +33,7 @@ const RenderOrders = ({ orderItems }) => {
         newCount[index].quantity === 1 ? 1 : newCount[index].quantity - 1;
       return newCount;
     });
+    dispatch({ type: "SET_ORDER_PRICE", payload: totalPrice });
   };
 
   const handleIncrement = (id, index) => {
@@ -43,14 +42,19 @@ const RenderOrders = ({ orderItems }) => {
       newCount[index].quantity = newCount[index].quantity + 1;
       return newCount;
     });
+    dispatch({ type: "SET_ORDER_PRICE", payload: totalPrice });
   };
 
-  const handleRemove = (id) => {
+  const handleRemove = (id, idx) => {
     setState((prev) => {
       let newCount = [...prev];
-      let filtered = newCount.filter((item) => item.id !== id);
+      let filtered = newCount.filter((item, index) => index !== idx);
+      // if (filtered.length === 0) {
+          
+      // }
       return filtered;
     });
+    
   };
 
   return (

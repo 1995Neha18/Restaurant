@@ -11,9 +11,10 @@ import {
 export default function CustomInput({ setData, formData }) {
   return (
     <Flex flexDirection="row-reverse" justifyContent="space-between">
-      <Box>
+      <Box  ml="4">
         <FormLabel fontSize="sm">Mobile Number</FormLabel>
-        <InputGroup bg="none" size="xs">
+        <InputGroup bg="none" size="xs"
+            border="1px solid #e2e8f0">
           <InputLeftAddon children="+91" bg="none" borderRight="none" />
           <Input
             type="tel"
@@ -23,6 +24,7 @@ export default function CustomInput({ setData, formData }) {
             value={formData.mobile}
             onChange={(e) => setData({ ...formData, mobile: e.target.value })}
             focusVisible="none"
+            _placeholder={{ color: "gray.400" }}
           />
           <InputRightAddon
             children={`${formData.mobile.length}/10`}
@@ -33,7 +35,8 @@ export default function CustomInput({ setData, formData }) {
       </Box>
       <Box>
         <FormLabel fontSize="sm">Full Name</FormLabel>
-        <InputGroup>
+        <InputGroup 
+            border="1px solid #e2e8f0" color="black">
           <Input
             type="text"
             size="xs"
@@ -41,6 +44,7 @@ export default function CustomInput({ setData, formData }) {
             _focusVisible="none"
             value={formData.name}
             onChange={(e) => setData({ ...formData, name: e.target.value })}
+            _placeholder={{ color: "gray.400" }}
           />
         </InputGroup>
       </Box>

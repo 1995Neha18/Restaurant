@@ -1,14 +1,23 @@
 export const reducer = (state, { type, payload }) => {
   switch (type) {
     case "SET_ORDER_ITEMS":
-      return { ...state, orderItems:payload };
-    case "ORDER_DECREMENT":
-      return { ...state, orderPrice: state.orderPrice - payload };
-    case "ORDER_INCREMENT":
-      return { ...state, orderPrice: state.orderPrice + payload };
+      let slug = Object.keys(payload)[0];
+      console.log(slug);
+      return {
+        ...state,
+        orderItems: {
+          ...state.orderItems,
+          [slug]: {
+            ...state.orderItems[slug],
+            ...payload[slug],
+          },
+        },
+      };
     case "SET_ORDER_PRICE":
-      return { ...state, orderPrice: payload };
-
+      return {
+        ...state,
+        orderPrice: payload,
+      };
     default:
       return state;
   }

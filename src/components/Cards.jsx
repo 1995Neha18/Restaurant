@@ -3,8 +3,8 @@ import React from "react";
 import { CiCircleMinus } from "react-icons/ci";
 import { Context } from "../contextApi";
 
-const Cards = ({ name, products }) => {
-  const { dispatch ,state} = React.useContext(Context);
+const Cards = ({ name, products, slug }) => {
+  const { dispatch } = React.useContext(Context);
 
   const initials = products.map((item) => ({
     id: item._id,
@@ -14,27 +14,34 @@ const Cards = ({ name, products }) => {
   }));
 
   const [count, setCount] = React.useState(initials);
-  
-  const handleDecrement = (id, index) => {
-    console.log("decrement", { id });
-    setCount((prev) => {
-      let newCount = [...prev];
-      newCount[index].quantity = newCount[index].quantity - 1;
-      return newCount;
-    });
-    dispatch({ type: "SET_ORDER_ITEMS", payload: count });
+
+  const handleDecrement = (id, index, price, name) => {
+    let newCount = [...count];
+    newCount[index].quantity = newCount[index].quantity - 1;
+    setCount(newCount);
+    const payload = {
+      [slug]: { [id]: { price, name, quantity: newCount[index].quantity } }
+    };
+    console.log("decrement", payload);
+    dispatch({ type: "SET_ORDER_ITEMS", payload });
   };
 
-  const handleIncrement = (id, index) => {
-    console.log("increment", { id });
-    setCount((prev) => {
-      let newCount = [...prev];
-      newCount[index].quantity = newCount[index].quantity + 1;
-      return newCount;
-    });
-    dispatch({ type: "SET_ORDER_ITEMS", payload: count });
+  const handleIncrement = (id, index, price, name) => {
+    let newCount = [...count];
+    newCount[index].quantity = newCount[index].quantity + 1;
+    setCount(newCount);
+
+    const payload = {
+      [slug]: { [id]: { price, name, quantity: newCount[index].quantity } }
+    };
+    console.log("increment", payload);
+
+    dispatch({ type: "SET_ORDER_ITEMS", payload });
   };
 
+  React.useEffect(() => {
+    setCount(initials);
+  }, [slug]);
 
   return (
     <Box w={"300px"} bg="white" pt="6" pb="4" borderRadius="md" m="5">
@@ -59,10 +66,13 @@ const Cards = ({ name, products }) => {
           px="4"
           _hover={{ bg: "#eff0f5" }}
           position={"relative"}
+          color="black"
         >
           <Text
             cursor={"pointer"}
-            onClick={() => handleIncrement(item._id, idx)}
+            onClick={() =>
+              handleIncrement(item._id, idx, item.price, item.name)
+            }
           >
             {item.name}
           </Text>
@@ -73,7 +83,9 @@ const Cards = ({ name, products }) => {
               color="red"
               fontSize={"22px"}
               fontWeight={"400"}
-              onClick={() => handleDecrement(item._id, idx)}
+              onClick={() =>
+                handleDecrement(item._id, idx, item.price, item.name)
+              }
               cursor={"pointer"}
             />
           )}

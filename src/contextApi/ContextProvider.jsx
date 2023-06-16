@@ -4,7 +4,7 @@ import { reducer } from "./reducer";
 export const Context = React.createContext();
 
 const initialState = {
-  orderItems: [],
+  orderItems: {},
   orderPrice: 0,
 };
 const ContextProvider = ({ children }) => {
