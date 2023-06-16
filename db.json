@@ -1,0 +1,1407 @@
+{
+  "categories": [
+    {
+      "name": "Bars",
+      "slug": "bars",
+      "products": [
+        {
+          "name": "Kesar pista kulfi",
+          "price": 50,
+          "unit": "UNIT",
+          "purchaseUnit": "UNIT",
+          "onlinePrice": 0,
+          "costPrice": 0,
+          "category": "bars",
+          "_id": "kesar-pista-kulfi-ab2a21fc-d0ce-44a6-a600-e03436cc85be",
+          "customPrice": {}
+        },
+        {
+          "name": "rabdi m kulfi",
+          "price": 30,
+          "unit": "UNIT",
+          "purchaseUnit": "UNIT",
+          "onlinePrice": 0,
+          "costPrice": 0,
+          "category": "bars",
+          "_id": "rabdi-m-kulfi-448b4ddf-b904-4785-b7b8-6deb249b0746",
+          "customPrice": {}
+        },
+        {
+          "name": "choco swirl",
+          "price": 25,
+          "unit": "Piece",
+          "purchaseUnit": "UNIT",
+          "onlinePrice": 0,
+          "costPrice": 0,
+          "unitConversion": 1,
+          "category": "bars",
+          "_id": "choco-swirl-73d2c441-92f1-46c8-92b3-2169bf884981",
+          "customPrice": {}
+        },
+        {
+          "name": "fun chocobar",
+          "price": 10,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": 0,
+          "costPrice": 0,
+          "unitConversion": 1,
+          "category": "bars",
+          "_id": "fun-chocobar-2bc87596-b8a8-4dfa-a64c-70c279b05a0a",
+          "customPrice": {}
+        },
+        {
+          "name": "Rajwadi kulfi bar",
+          "price": 30,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "rajwadi-kulfi-bar",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 18
+        },
+        {
+          "name": "Mewad kulfi",
+          "price": 20,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "mewad-kulfi",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 18
+        },
+        {
+          "name": "Hazelnut bar",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "hazelnut-bar",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 8
+        },
+        {
+          "name": "Double choc",
+          "price": 50,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "double-choc",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 8
+        },
+        {
+          "name": "Raspberry Dolly",
+          "price": 20,
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "raspberry-dolly",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 18
+        },
+        {
+          "name": "Superstar",
+          "price": 30,
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "superstar",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 8
+        },
+        {
+          "name": "Frosty",
+          "price": 35,
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "frosty",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 12
+        },
+        {
+          "name": "Chocobar",
+          "price": 20,
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "chocobar",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 18
+        },
+        {
+          "name": "Orange Supreme",
+          "price": 10,
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "orange-supreme",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 18
+        },
+        {
+          "name": "Mango Dolly",
+          "price": 20,
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "mango-dolly",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 18
+        },
+        {
+          "name": "Pineapple punch",
+          "price": 10,
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "pineapple-punch",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 18
+        },
+        {
+          "name": "Kacchi Kerry",
+          "price": 10,
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "kacchi-kerry",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 18
+        },
+        {
+          "name": "Mango Up",
+          "price": 25,
+          "onlinePrice": 0,
+          "category": "bars",
+          "_id": "mango-up",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 12
+        }
+      ],
+      "position": 1
+    },
+    {
+      "name": "cones",
+      "slug": "cones",
+      "products": [
+        {
+          "name": "c. Extreme choc",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "cones",
+          "_id": "c.-extreme-choc",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 8
+        },
+        {
+          "name": "c. Hazelnut",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "cones",
+          "_id": "c.-hazelnut",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 8
+        },
+        {
+          "name": "c. Cookie n cream",
+          "price": 50,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "cones",
+          "_id": "c.-cookie-n-cream",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 8
+        },
+        {
+          "name": "c. Strawberry`",
+          "price": 20,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "cones",
+          "_id": "c.-strawberry`",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 14
+        },
+        {
+          "name": "c. Choco swiss",
+          "price": 20,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "cones",
+          "_id": "c.-choco-swiss",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 14
+        },
+        {
+          "name": "c. Pista choc",
+          "price": 30,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "cones",
+          "_id": "c.-pista-choc",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 8
+        },
+        {
+          "name": "c. Chocochip",
+          "price": 35,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "cones",
+          "_id": "c.-chocochip",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 8
+        },
+        {
+          "name": "c. Butterscouch",
+          "price": 35,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "cones",
+          "_id": "c.-butterscouch",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 8,
+          "costPrice": 0,
+          "kitchens": []
+        }
+      ],
+      "position": 2
+    },
+    {
+      "name": "Naturals",
+      "slug": "naturals",
+      "products": [
+        {
+          "name": "Vanilla tub (no sugar)",
+          "price": 150,
+          "onlinePrice": 0,
+          "category": "naturals",
+          "_id": "vanilla-tub-(no-sugar)",
+          "customPrice": {},
+          "unit": "Unit"
+        },
+        {
+          "name": "Sitaphal 700ml",
+          "price": 200,
+          "onlinePrice": 0,
+          "category": "naturals",
+          "_id": "sitaphal-700ml",
+          "customPrice": {},
+          "unit": "Unit"
+        },
+        {
+          "name": "Alphonso 700ml",
+          "price": 200,
+          "onlinePrice": 0,
+          "category": "naturals",
+          "_id": "alphonso-700ml",
+          "customPrice": {},
+          "unit": "Unit"
+        }
+      ],
+      "position": 3
+    },
+    {
+      "name": "Take Home Tubs",
+      "slug": "take-home-tubs-(700ml)",
+      "products": [
+        {
+          "name": "t7 butterscotch",
+          "price": 220,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": 0,
+          "costPrice": 0,
+          "category": "take-home-tubs-(700ml)",
+          "_id": "t7-butterscotch-7bdb47bc-62ad-4459-8866-074932216609",
+          "customPrice": {}
+        },
+        {
+          "name": "t7 r.f.k",
+          "price": 275,
+          "unit": "UNIT",
+          "purchaseUnit": "UNIT",
+          "onlinePrice": 0,
+          "costPrice": 0,
+          "category": "take-home-tubs-(700ml)",
+          "_id": "t7-r.f.k-1e542ef2-9453-466b-bb7b-4ce667012243",
+          "customPrice": {}
+        },
+        {
+          "name": "T7 paan kulfi",
+          "price": 250,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": 1,
+          "costPrice": "1",
+          "category": "take-home-tubs-(700ml)",
+          "_id": "t7-paan-kulfi",
+          "customPrice": {}
+        },
+        {
+          "name": "T5 mawa mithai",
+          "price": 200,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": 130,
+          "costPrice": "130",
+          "category": "take-home-tubs-(700ml)",
+          "_id": "t5-mawa-mithai",
+          "customPrice": {}
+        },
+        {
+          "name": "T5 vanilla bean",
+          "price": 175,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": 125,
+          "costPrice": "125",
+          "category": "take-home-tubs-(700ml)",
+          "_id": "t5-vanilla-bean",
+          "customPrice": {}
+        },
+        {
+          "name": "T7 Fruit & Nut",
+          "description": "",
+          "price": 200,
+          "onlinePrice": 0,
+          "category": "take-home-tubs-(700ml)",
+          "_id": "fruit-&-nut",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        },
+        {
+          "name": "T7 Cookie `N Cream",
+          "price": 250,
+          "onlinePrice": 0,
+          "category": "take-home-tubs-(700ml)",
+          "_id": "cookie-`n-cream",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        },
+        {
+          "name": "T7 Belgian Chocolate",
+          "price": 250,
+          "onlinePrice": 0,
+          "category": "take-home-tubs-(700ml)",
+          "_id": "t7-belgian-chocolate",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        },
+        {
+          "name": "T7 Chocolate mud Pie",
+          "price": 275,
+          "onlinePrice": 0,
+          "category": "take-home-tubs-(700ml)",
+          "_id": "chocolate-mud-pie",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        },
+        {
+          "name": "T7 Rajbhog",
+          "price": 275,
+          "onlinePrice": 0,
+          "category": "take-home-tubs-(700ml)",
+          "_id": "t7-rajbhog",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        },
+        {
+          "name": "T7 Rajwadi Kulfi",
+          "price": 275,
+          "onlinePrice": 0,
+          "category": "take-home-tubs-(700ml)",
+          "_id": "t7-rajwadi-kulfi",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        },
+        {
+          "name": "T7 Kalakand",
+          "price": 300,
+          "onlinePrice": 0,
+          "category": "take-home-tubs-(700ml)",
+          "_id": "kalakand",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        }
+      ],
+      "position": 3
+    },
+    {
+      "name": "Scheme Packs ",
+      "slug": "scheme-packs-(900-+-300-ml-free)",
+      "products": [
+        {
+          "name": "Butterscotch 1.2",
+          "price": 225,
+          "onlinePrice": 0,
+          "category": "scheme-packs-(900-+-300-ml-free)",
+          "_id": "butterscotch-1.2",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        },
+        {
+          "name": "vanilla 1.2",
+          "price": 200,
+          "onlinePrice": 0,
+          "category": "scheme-packs-(900-+-300-ml-free)",
+          "_id": "vanilla-1.2",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        }
+      ],
+      "position": 4
+    },
+    {
+      "name": "Smart Packs",
+      "slug": "smart-packs",
+      "products": [
+        {
+          "name": "Chkco cake",
+          "price": 185,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": null,
+          "category": "smart-packs",
+          "_id": "chkco-cake",
+          "customPrice": {}
+        },
+        {
+          "name": "pina-lemon 700ml",
+          "price": 150,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "smart-packs",
+          "_id": "pina-lemon-700ml",
+          "customPrice": {}
+        },
+        {
+          "name": "Tutti Fruity 700ml",
+          "price": 130,
+          "onlinePrice": 0,
+          "category": "smart-packs",
+          "_id": "tutti-fruity",
+          "customPrice": {},
+          "unit": "Unit"
+        },
+        {
+          "name": "American Nuts 700ml",
+          "price": 150,
+          "onlinePrice": 0,
+          "category": "smart-packs",
+          "_id": "american-nuts",
+          "customPrice": {},
+          "unit": "Unit"
+        },
+        {
+          "name": "Black Currant 700ml",
+          "price": 150,
+          "onlinePrice": 0,
+          "category": "smart-packs",
+          "_id": "black-currant",
+          "customPrice": {},
+          "unit": "Unit"
+        },
+        {
+          "name": "Kesar Pista 700ml",
+          "price": 175,
+          "onlinePrice": 0,
+          "category": "smart-packs",
+          "_id": "kesar-pista-700ml",
+          "customPrice": {},
+          "unit": "Unit"
+        },
+        {
+          "name": "Rabdi Kulfi 700ml",
+          "price": 175,
+          "onlinePrice": 0,
+          "category": "smart-packs",
+          "_id": "rabdi-kulfi",
+          "customPrice": {},
+          "unit": "Unit"
+        }
+      ],
+      "position": 5
+    },
+    {
+      "name": "Combo Packs",
+      "slug": "combo-packs",
+      "products": [
+        {
+          "name": "Mango 700ml",
+          "price": 130,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "combo-packs",
+          "_id": "mango-700ml",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 2,
+          "costPrice": 0,
+          "kitchens": []
+        },
+        {
+          "name": "Vanilla 700ml",
+          "price": 110,
+          "onlinePrice": 0,
+          "category": "combo-packs",
+          "_id": "vanilla-700ml",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 2,
+          "costPrice": 0,
+          "kitchens": []
+        },
+        {
+          "name": "Butterscotch 700ml",
+          "description": "",
+          "price": 135,
+          "onlinePrice": 0,
+          "category": "combo-packs",
+          "_id": "butterscotch-700ml",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 2,
+          "costPrice": 0,
+          "kitchens": []
+        },
+        {
+          "name": "strawberry 700ml",
+          "description": "",
+          "price": 100,
+          "onlinePrice": 0,
+          "category": "combo-packs",
+          "_id": "strawberry",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 2
+        },
+        {
+          "name": "Fruit Punch  700ml",
+          "price": 130,
+          "onlinePrice": 0,
+          "category": "combo-packs",
+          "_id": "fruit-punch",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 2,
+          "costPrice": 0,
+          "kitchens": []
+        },
+        {
+          "name": "Choco Chips 700ml",
+          "price": 140,
+          "onlinePrice": 0,
+          "category": "combo-packs",
+          "_id": "choco-chips",
+          "customPrice": {},
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "unitConversion": 2
+        }
+      ],
+      "position": 6
+    },
+    {
+      "name": "Ice Cream Cake",
+      "slug": "ice-cream-cake",
+      "products": [
+        {
+          "name": "Black forest cake (1200ml)",
+          "price": 500,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "ice-cream-cake",
+          "_id": "black-forest-cake-(1200ml)",
+          "customPrice": {}
+        },
+        {
+          "name": "strawberry Cheesecake",
+          "price": 500,
+          "onlinePrice": 0,
+          "category": "ice-cream-cake",
+          "_id": "strawberry-cheesecake",
+          "customPrice": {},
+          "unit": "Unit"
+        },
+        {
+          "name": "Hazelnut Dark Chocolate cake",
+          "price": 500,
+          "onlinePrice": 0,
+          "category": "ice-cream-cake",
+          "_id": "hazelnut-dark-chocolate",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        },
+        {
+          "name": "Chocolate Truffle ck",
+          "price": 300,
+          "onlinePrice": 0,
+          "category": "ice-cream-cake",
+          "_id": "chocolate-truffle",
+          "customPrice": {},
+          "unit": "Unit",
+          "purchaseUnit": "Unit",
+          "unitConversion": 1
+        },
+        {
+          "name": "Black Forest jr. 500ml",
+          "price": 250,
+          "onlinePrice": 0,
+          "category": "ice-cream-cake",
+          "_id": "black-forest",
+          "customPrice": {},
+          "unit": "Unit"
+        }
+      ],
+      "position": 7
+    },
+    {
+      "name": "scoop",
+      "slug": "scoop",
+      "products": [
+        {
+          "name": "rose faluda kulfi",
+          "price": 70,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": 0,
+          "costPrice": 0,
+          "category": "scoop",
+          "_id": "rose-faluda-kulfi-ec00b822-206e-4b74-9c7c-2e6e1058c708",
+          "customPrice": {}
+        },
+        {
+          "name": "jhon lemon",
+          "price": 60,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": 0,
+          "unitConversion": 25,
+          "category": "scoop",
+          "_id": "jhon-lemon",
+          "customPrice": {}
+        },
+        {
+          "name": "pink passion",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "pink-passion",
+          "customPrice": {}
+        },
+        {
+          "name": "Kesar pista",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "kesar-pista",
+          "customPrice": {}
+        },
+        {
+          "name": "Anjeer badam",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "anjeer-badam",
+          "customPrice": {}
+        },
+        {
+          "name": "Tuty fruty",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "tuty-fruty",
+          "customPrice": {}
+        },
+        {
+          "name": "Paan kulfi",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "paan-kulfi",
+          "customPrice": {}
+        },
+        {
+          "name": "Rajbhog",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "rajbhog",
+          "customPrice": {}
+        },
+        {
+          "name": "Rajwadi kulfi",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "rajwadi-kulfi",
+          "customPrice": {}
+        },
+        {
+          "name": "Cookie n cream",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "cookie-n-cream",
+          "customPrice": {}
+        },
+        {
+          "name": "Extreme chocolate",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "extreme-chocolate",
+          "customPrice": {}
+        },
+        {
+          "name": "Choco-fudge brownie",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "choco-fudge-brownie",
+          "customPrice": {}
+        },
+        {
+          "name": "Belgian chocolate",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "belgian-chocolate",
+          "customPrice": {}
+        },
+        {
+          "name": "Melo-jelo",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "melo-jelo",
+          "customPrice": {}
+        },
+        {
+          "name": "mango",
+          "price": 50,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "mango",
+          "customPrice": {}
+        },
+        {
+          "name": "pineapple",
+          "price": 50,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "pineapple",
+          "customPrice": {}
+        },
+        {
+          "name": "Raspberry ripple",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "raspberry-ripple",
+          "customPrice": {}
+        },
+        {
+          "name": "american nut",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "american-nut",
+          "customPrice": {}
+        },
+        {
+          "name": "Fruit cocktail",
+          "price": 70,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "fruit-cocktail",
+          "customPrice": {}
+        },
+        {
+          "name": "sttrawberry",
+          "price": 40,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "sttrawberry",
+          "customPrice": {}
+        },
+        {
+          "name": "Black current",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "black-current",
+          "customPrice": {}
+        },
+        {
+          "name": "vanilla",
+          "price": 40,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "vanilla",
+          "customPrice": {}
+        },
+        {
+          "name": "Butterscotch",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": null,
+          "category": "scoop",
+          "_id": "butterscotch",
+          "customPrice": {}
+        }
+      ],
+      "position": 8
+    },
+    {
+      "name": "sandwich",
+      "slug": "sandwich",
+      "products": [
+        {
+          "name": "cookie sandwich",
+          "price": 20,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "sandwich",
+          "_id": "cookie-sandwich",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 14
+        },
+        {
+          "name": "vanilla sandwich",
+          "price": 30,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "sandwich",
+          "_id": "vanilla-sandwich",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 14,
+          "costPrice": 0,
+          "kitchens": []
+        },
+        {
+          "name": "Bourbon sandwich",
+          "price": 35,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "sandwich",
+          "_id": "bourbon-sandwich",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 14
+        }
+      ],
+      "position": 9
+    },
+    {
+      "name": "Novelties",
+      "slug": "novelties",
+      "products": [
+        {
+          "name": "N.s anjeer",
+          "price": 50,
+          "unit": "Piece",
+          "purchaseUnit": "UNIT",
+          "onlinePrice": 0,
+          "costPrice": 0,
+          "unitConversion": 1,
+          "category": "novelties",
+          "_id": "n.s-anjeer-41d0b688-7fa7-4b17-97f8-a7a6f44079b3",
+          "customPrice": {}
+        },
+        {
+          "name": "choco fudge cup",
+          "price": 30,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": null,
+          "unitConversion": "8",
+          "category": "novelties",
+          "_id": "choco-fudge-cup",
+          "customPrice": {}
+        },
+        {
+          "name": "Mango ripple",
+          "price": 20,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": null,
+          "unitConversion": "8",
+          "category": "novelties",
+          "_id": "mango-ripple",
+          "customPrice": {}
+        },
+        {
+          "name": "Vanilla Lc.",
+          "price": 10,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": null,
+          "unitConversion": "12",
+          "category": "novelties",
+          "_id": "vanilla-lc.",
+          "customPrice": {}
+        },
+        {
+          "name": "N.s Vanilla  cup",
+          "price": 40,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "novelties",
+          "_id": "n.s-vanilla--cup",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 12
+        },
+        {
+          "name": "Hazelnut dark chocolate cup",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "novelties",
+          "_id": "hazelnut-dark-chocolate-cup",
+          "customPrice": {},
+          "purchaseUnit": "Unit",
+          "unitConversion": 12
+        },
+        {
+          "name": "Kulfi roll-cut",
+          "price": 55,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "novelties",
+          "_id": "kulfi-roll-cut",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 6
+        },
+        {
+          "name": "matka kulfi",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "novelties",
+          "_id": "matka-kulfi",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 10
+        },
+        {
+          "name": "Cassata slice",
+          "price": 60,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "novelties",
+          "_id": "cassata-slice",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 6
+        },
+        {
+          "name": "Cake slice",
+          "price": 55,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "novelties",
+          "_id": "cake-slice",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 8
+        },
+        {
+          "name": "Rainbow",
+          "price": 55,
+          "unit": "Piece",
+          "onlinePrice": 0,
+          "category": "novelties",
+          "_id": "rainbow",
+          "customPrice": {},
+          "purchaseUnit": "Bag",
+          "unitConversion": 6
+        }
+      ],
+      "position": 10
+    },
+    {
+      "name": "waffle cone",
+      "slug": "waffle-cone",
+      "products": [
+        {
+          "name": "waffle cone plain",
+          "price": 10,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": null,
+          "category": "waffle-cone",
+          "_id": "waffle-cone-plain",
+          "customPrice": {}
+        }
+      ],
+      "position": 12
+    },
+    {
+      "name": "cold drinks",
+      "slug": "cold-drinks",
+      "products": [
+        {
+          "name": " 3 sister",
+          "price": 99,
+          "unit": "UNIT",
+          "purchaseUnit": "UNIT",
+          "onlinePrice": 0,
+          "costPrice": 0,
+          "category": "cold-drinks",
+          "_id": "3-sister-8f382269-12c2-446f-8fa5-1b70d5857047",
+          "customPrice": {}
+        },
+        {
+          "name": "paper boat10",
+          "price": 10,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": null,
+          "unitConversion": "30",
+          "category": "cold-drinks",
+          "_id": "paper-boat10",
+          "customPrice": {}
+        },
+        {
+          "name": "redbul 160",
+          "price": 160,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": 1,
+          "costPrice": "1",
+          "unitConversion": 24,
+          "category": "cold-drinks",
+          "_id": "redbul-145",
+          "customPrice": {},
+          "kitchens": []
+        },
+        {
+          "name": "2lt cold-drink",
+          "price": 95,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": 0,
+          "unitConversion": 9,
+          "category": "cold-drinks",
+          "_id": "2lt-cold-drink",
+          "customPrice": {},
+          "costPrice": 0,
+          "kitchens": []
+        },
+        {
+          "name": "coolberg ",
+          "price": 109,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": 0,
+          "unitConversion": 24,
+          "category": "cold-drinks",
+          "_id": "coolberg",
+          "customPrice": {},
+          "costPrice": 0,
+          "kitchens": []
+        },
+        {
+          "name": "sting can",
+          "price": 30,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": 0,
+          "unitConversion": 24,
+          "category": "cold-drinks",
+          "_id": "sting-can",
+          "customPrice": {}
+        },
+        {
+          "name": "Monster",
+          "price": 110,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": 0,
+          "unitConversion": 24,
+          "category": "cold-drinks",
+          "_id": "redbull-115",
+          "customPrice": {}
+        },
+        {
+          "name": "bislery 20",
+          "price": 20,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": null,
+          "unitConversion": "12",
+          "category": "cold-drinks",
+          "_id": "bislery-20",
+          "customPrice": {}
+        },
+        {
+          "name": "can 60",
+          "price": 60,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": null,
+          "unitConversion": "24",
+          "category": "cold-drinks",
+          "_id": "can-60",
+          "customPrice": {}
+        },
+        {
+          "name": "can 25",
+          "price": 25,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": null,
+          "unitConversion": "30",
+          "category": "cold-drinks",
+          "_id": "can-25",
+          "customPrice": {}
+        },
+        {
+          "name": "pepsi 40",
+          "price": 40,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": null,
+          "unitConversion": "24",
+          "category": "cold-drinks",
+          "_id": "pepsi-40",
+          "customPrice": {}
+        },
+        {
+          "name": "redbull 125",
+          "price": 125,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": null,
+          "unitConversion": "24",
+          "category": "cold-drinks",
+          "_id": "redbull-125",
+          "customPrice": {}
+        }
+      ],
+      "position": 12
+    },
+    {
+      "name": "chocolate",
+      "slug": "chocolate",
+      "products": [
+        {
+          "name": "kinder joy",
+          "price": 45,
+          "unit": "Piece",
+          "purchaseUnit": "Bag",
+          "onlinePrice": 39.99,
+          "costPrice": "39.99",
+          "unitConversion": 24,
+          "category": "chocolate",
+          "_id": "kinder-joy",
+          "customPrice": {}
+        },
+        {
+          "name": "choc 100",
+          "price": 100,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": 91,
+          "costPrice": "91",
+          "category": "chocolate",
+          "_id": "choc-100",
+          "customPrice": {}
+        },
+        {
+          "name": "choc 20",
+          "price": 20,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": 18,
+          "costPrice": "18",
+          "category": "chocolate",
+          "_id": "choc-20",
+          "customPrice": {}
+        },
+        {
+          "name": "choc 150",
+          "price": 150,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": 1,
+          "costPrice": "1",
+          "category": "chocolate",
+          "_id": "choc-150",
+          "customPrice": {}
+        },
+        {
+          "name": "choc. 50",
+          "price": 50,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": 1,
+          "costPrice": "1",
+          "category": "chocolate",
+          "_id": "choc.-50",
+          "customPrice": {}
+        },
+        {
+          "name": "fuse 35",
+          "price": 35,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": null,
+          "category": "chocolate",
+          "_id": "fuse-35",
+          "customPrice": {}
+        },
+        {
+          "name": "crackle 45",
+          "price": 45,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": null,
+          "category": "chocolate",
+          "_id": "crackle-45",
+          "customPrice": {}
+        },
+        {
+          "name": "Dm40",
+          "price": 40,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": null,
+          "category": "chocolate",
+          "_id": "dm40",
+          "customPrice": {}
+        },
+        {
+          "name": "silk 170",
+          "price": 170,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": null,
+          "category": "chocolate",
+          "_id": "silk-170",
+          "customPrice": {}
+        },
+        {
+          "name": "silk 175",
+          "price": 175,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": null,
+          "category": "chocolate",
+          "_id": "silk-175",
+          "customPrice": {}
+        },
+        {
+          "name": "silk 75",
+          "price": 75,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": null,
+          "category": "chocolate",
+          "_id": "silk-75",
+          "customPrice": {}
+        },
+        {
+          "name": "silk 85",
+          "price": 85,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": 0,
+          "category": "chocolate",
+          "_id": "silk-80",
+          "customPrice": {},
+          "costPrice": 0,
+          "kitchens": [],
+          "unitConversion": 1
+        },
+        {
+          "name": "chocolate 90",
+          "price": 90,
+          "unit": "Piece",
+          "purchaseUnit": "Piece",
+          "onlinePrice": null,
+          "category": "chocolate",
+          "_id": "chocolate-90",
+          "customPrice": {}
+        }
+      ],
+      "position": 14
+    }
+  ]
+}
